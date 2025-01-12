@@ -1,0 +1,25 @@
+[
+  {
+    "chainId": 2187,
+    "symbol": "WG7",
+    "name": "Wrapped G7",
+    "address": "0xfa3ed70386b9255fC04aA008A8ad1B0CDa816Fac",
+    "logoURI": "BASE_URL/assets/g7.svg",
+    "decimals": 18,
+    "isWNative": true,
+    "common": true,
+    "defaultSwapOutput": true,
+    "quote": "native"
+  },
+  {
+    "chainId": 2187,
+    "symbol": "USDC.e",
+    "name": "Bridged USDC",
+    "address": "0x401eCb1D350407f13ba348573E5630B83638E30D",
+    "logoURI": "BASE_URL/assets/usdc.svg",
+    "decimals": 6,
+    "common": true,
+    "defaultSwapInput": true,
+    "quote": "stable"
+  }
+]

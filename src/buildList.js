@@ -9,6 +9,7 @@ const degen = require("./tokens/degen.json");
 const duckchain = require("./tokens/duckchain.json");
 const educhain = require("./tokens/educhain.json");
 const geist = require("./tokens/geist.json");
+const game7 = require("./tokens/game7.json");
 const gravity = require("./tokens/gravity.json");
 const molten = require("./tokens/molten.json");
 const plume = require("./tokens/plume.json");
@@ -31,6 +32,7 @@ module.exports = function buildList() {
     ...degen,
     ...duckchain,
     ...educhain,
+    ...game7,
     ...geist,
     ...gravity,
     ...molten,
