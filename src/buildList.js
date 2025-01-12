@@ -4,6 +4,7 @@ const arbitrumSepolia = require("./tokens/arbitrum-sepolia.json");
 const arbitrumOne = require("./tokens/arbitrum-one.json");
 const alephZero = require("./tokens/aleph-zero.json");
 const apechain = require("./tokens/apechain.json");
+const conwai = require("./tokens/conwai.json");
 const corn = require("./tokens/corn.json");
 const degen = require("./tokens/degen.json");
 const duckchain = require("./tokens/duckchain.json");
@@ -29,6 +30,7 @@ module.exports = function buildList() {
     ...arbitrumOne,
     ...alephZero,
     ...apechain,
+    ...conwai,
     ...corn,
     ...degen,
     ...duckchain,
