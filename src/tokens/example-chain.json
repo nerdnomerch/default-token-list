@@ -1,13 +1,25 @@
 [
   {
-    "chainId": 42161,
+    "chainId": 0,
     "symbol": "WETH",
     "name": "Wrapped ETH",
     "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
     "logoURI": "BASE_URL/assets/weth.svg",
     "decimals": 18,
     "isWNative": true,
-    "quote": "native",
-    "priceChartPair": "0x88e6A0c2dDD26FEEb64F039a2c41296FcB3f5640"
+    "common": true,
+    "defaultSwapOutput": true,
+    "quote": "native"
+  },
+  {
+    "chainId": 0,
+    "symbol": "USDC",
+    "name": "USDC",
+    "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "logoURI": "BASE_URL/assets/usdc.svg",
+    "decimals": 6,
+    "common": true,
+    "defaultSwapInput": true,
+    "quote": "stable"
   }
 ]
