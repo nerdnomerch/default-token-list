@@ -17,6 +17,7 @@ const proofOfPlay = require("./tokens/proof-of-play.json");
 const rari = require("./tokens/rari.json");
 const reya = require("./tokens/reya.json");
 const sanko = require("./tokens/sanko.json");
+const superposition = require("./tokens/superposition.json");
 const winr = require("./tokens/winr.json");
 const xai = require("./tokens/xai.json");
 
@@ -41,6 +42,7 @@ module.exports = function buildList() {
     ...rari,
     ...reya,
     ...sanko,
+    ...superposition,
     ...winr,
     ...xai
   ]

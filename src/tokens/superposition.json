@@ -1,0 +1,25 @@
+[
+  {
+    "chainId": 55244,
+    "symbol": "WETH",
+    "name": "Wrapped Ether",
+    "address": "0x1fB719f10b56d7a85DCD32f27f897375fB21cfdd",
+    "logoURI": "BASE_URL/assets/weth.svg",
+    "decimals": 18,
+    "isWNative": true,
+    "common": true,
+    "defaultSwapOutput": true,
+    "quote": "native"
+  },
+  {
+    "chainId": 55244,
+    "symbol": "USDC.e",
+    "name": "Bridged USDC (Stargate)",
+    "address": "0x6c030c5CC283F791B26816f325b9C632d964F8A1",
+    "logoURI": "BASE_URL/assets/usdc.svg",
+    "decimals": 6,
+    "common": true,
+    "defaultSwapInput": true,
+    "quote": "stable"
+  }
+]
