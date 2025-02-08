@@ -2159,5 +2159,14 @@
     "logoURI": "BASE_URL/assets/rari.svg",
     "decimals": 18,
     "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "SWORLD",
+    "name": "Seedworld",
+    "address": "0x968bE3F7bfeF0F8eDc3c1aD90232EbB0DA0867aA",
+    "logoURI": "BASE_URL/assets/sworld.png",
+    "decimals": 18,
+    "quote": "other"
   }
 ]
