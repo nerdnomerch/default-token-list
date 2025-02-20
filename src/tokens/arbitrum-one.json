@@ -55,15 +55,6 @@
   },
   {
     "chainId": 42161,
-    "symbol": "plsGRAIL",
-    "name": "Plutus GRAIL",
-    "address": "0x9e6B748d25Ed2600Aa0ce7Cbb42267adCF21Fd9B",
-    "logoURI": "BASE_URL/assets/plsgrail.svg",
-    "decimals": 18,
-    "quote": "other"
-  },
-  {
-    "chainId": 42161,
     "symbol": "BFR",
     "name": "Buffer Token",
     "address": "0x1A5B0aaF478bf1FDA7b934c76E7692D722982a6D",
@@ -88,9 +79,7 @@
     "logoURI": "BASE_URL/assets/cmumami.svg",
     "decimals": 9,
     "quote": "other",
-    "intermediaryTokens": [
-      "0x1622bF67e6e5747b81866fE0b85178a93C7F86e3"
-    ]
+    "intermediaryTokens": ["0x1622bF67e6e5747b81866fE0b85178a93C7F86e3"]
   },
   {
     "chainId": 42161,
@@ -108,6 +97,7 @@
     "address": "0xfc5A1A6EB076a2C7aD06eD22C90d7E710E35ad0a",
     "logoURI": "BASE_URL/assets/gmx.svg",
     "decimals": 18,
+    "common": true,
     "quote": "other"
   },
   {
@@ -143,15 +133,6 @@
     "name": "Sperax",
     "address": "0x5575552988A3A80504bBaeB1311674fCFd40aD4B",
     "logoURI": "BASE_URL/assets/spa.svg",
-    "decimals": 18,
-    "quote": "other"
-  },
-  {
-    "chainId": 42161,
-    "symbol": "plsSPA",
-    "name": "Plutus SPA",
-    "address": "0x0D111e482146fE9aC9cA3A65D92E65610BBC1Ba6",
-    "logoURI": "BASE_URL/assets/plsspa.svg",
     "decimals": 18,
     "quote": "other"
   },
@@ -225,7 +206,6 @@
     "address": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
     "logoURI": "BASE_URL/assets/wbtc.svg",
     "decimals": 8,
-    "common": true,
     "quote": "other"
   },
   {
@@ -298,6 +278,7 @@
     "address": "0x088cd8f5eF3652623c22D48b1605DCfE860Cd704",
     "logoURI": "BASE_URL/assets/vela.png",
     "decimals": 18,
+    "common": true,
     "quote": "other"
   },
   {
@@ -371,9 +352,7 @@
     "logoURI": "BASE_URL/assets/plsdpx.svg",
     "decimals": 18,
     "quote": "other",
-    "intermediaryTokens": [
-      "0x6C2C06790b3E3E3c38e12Ee22F8183b37a13EE55"
-    ]
+    "intermediaryTokens": ["0x6C2C06790b3E3E3c38e12Ee22F8183b37a13EE55"]
   },
   {
     "chainId": 42161,
@@ -860,9 +839,7 @@
     "logoURI": "BASE_URL/assets/esrdnt.svg",
     "decimals": 18,
     "quote": "other",
-    "intermediaryTokens": [
-      "0x3082CC23568eA640225c2467653dB90e9250AaA0"
-    ]
+    "intermediaryTokens": ["0x3082CC23568eA640225c2467653dB90e9250AaA0"]
   },
   {
     "chainId": 42161,
@@ -946,9 +923,7 @@
     "logoURI": "BASE_URL/assets/steur.svg",
     "decimals": 18,
     "quote": "derived_stable",
-    "intermediaryTokens": [
-      "0x004626A008B1aCdC4c74ab51644093b155e59A23"
-    ]
+    "intermediaryTokens": ["0x004626A008B1aCdC4c74ab51644093b155e59A23"]
   },
   {
     "chainId": 42161,
@@ -1231,9 +1206,7 @@
     "logoURI": "BASE_URL/assets/d2.jpg",
     "decimals": 18,
     "quote": "other",
-    "intermediaryTokens": [
-      "0x1c17a39B156189BF40905425170a3Ff62fb650DA"
-    ]
+    "intermediaryTokens": ["0x1c17a39B156189BF40905425170a3Ff62fb650DA"]
   },
   {
     "chainId": 42161,
@@ -1250,6 +1223,15 @@
     "name": "Savvy BTC",
     "address": "0xeEE18334c414A47FB886a7317E1885b2Bfb8c2A6",
     "logoURI": "BASE_URL/assets/svbtc.svg",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "O3",
+    "name": "O3 Swap Token",
+    "address": "0xEe9801669C6138E84bD50dEB500827b776777d28",
+    "logoURI": "BASE_URL/assets/o3.png",
     "decimals": 18,
     "quote": "other"
   },
@@ -1360,9 +1342,7 @@
     "logoURI": "BASE_URL/assets/xd2.svg",
     "decimals": 18,
     "quote": "other",
-    "intermediaryTokens": [
-      "0xed7f000eE335B8199b004cCA1c6f36d188CF6cb8"
-    ]
+    "intermediaryTokens": ["0xed7f000eE335B8199b004cCA1c6f36d188CF6cb8"]
   },
   {
     "chainId": 42161,
@@ -1417,9 +1397,7 @@
     "logoURI": "BASE_URL/assets/wstlink.png",
     "decimals": 18,
     "quote": "other",
-    "intermediaryTokens": [
-      "0xf97f4df75117a78c1A5a0DBb814Af92458539FB4"
-    ]
+    "intermediaryTokens": ["0xf97f4df75117a78c1A5a0DBb814Af92458539FB4"]
   },
   {
     "chainId": 42161,
@@ -1605,15 +1583,6 @@
   },
   {
     "chainId": 42161,
-    "symbol": "plsSYK",
-    "name": "Plutus SYK",
-    "address": "0x68D6d2545f14751baF36c417c2CC7cdf8dA8a15b",
-    "logoURI": "BASE_URL/assets/plssyk.svg",
-    "decimals": 18,
-    "quote": "other"
-  },
-  {
-    "chainId": 42161,
     "symbol": "RDDT.dw",
     "name": "Wrapped RDDT.d",
     "address": "0x2F71B3804a74A013d00065225752dBA9aD061e51",
@@ -1665,9 +1634,7 @@
     "logoURI": "BASE_URL/assets/eusd.png",
     "decimals": 18,
     "quote": "derived_stable",
-    "intermediaryTokens": [
-      "0x96a993f06951B01430523D0D5590192d650EBf3e"
-    ]
+    "intermediaryTokens": ["0x96a993f06951B01430523D0D5590192d650EBf3e"]
   },
   {
     "chainId": 42161,
@@ -1695,9 +1662,7 @@
     "logoURI": "BASE_URL/assets/knox.png",
     "decimals": 18,
     "quote": "derived_stable",
-    "intermediaryTokens": [
-      "0x96a993f06951B01430523D0D5590192d650EBf3e"
-    ]
+    "intermediaryTokens": ["0x96a993f06951B01430523D0D5590192d650EBf3e"]
   },
   {
     "chainId": 42161,
@@ -1842,9 +1807,7 @@
     "logoURI": "BASE_URL/assets/lusdc.svg",
     "decimals": 8,
     "quote": "other",
-    "intermediaryTokens": [
-      "0xF19547f9ED24aA66b03c3a552D181Ae334FBb8DB"
-    ]
+    "intermediaryTokens": ["0xF19547f9ED24aA66b03c3a552D181Ae334FBb8DB"]
   },
   {
     "chainId": 42161,
@@ -1854,9 +1817,7 @@
     "logoURI": "BASE_URL/assets/leth.svg",
     "decimals": 8,
     "quote": "other",
-    "intermediaryTokens": [
-      "0xF19547f9ED24aA66b03c3a552D181Ae334FBb8DB"
-    ]
+    "intermediaryTokens": ["0xF19547f9ED24aA66b03c3a552D181Ae334FBb8DB"]
   },
   {
     "chainId": 42161,
@@ -1891,299 +1852,6 @@
     "name": "Walk Token",
     "address": "0x9d0c0675a995d5F12b03E880763F639d0628b5C6",
     "logoURI": "BASE_URL/assets/walk.png",
-    "decimals": 18,
-    "quote": "other"
-  },
-  {
-    "chainId": 42161,
-    "symbol": "raz",
-    "name": "Fanko Official Token",
-    "address": "0x4f760c8E8f02538d835A567190524C27bB031caB",
-    "logoURI": "BASE_URL/assets/raz.png",
-    "decimals": 18,
-    "quote": "other"
-  },
-  {
-    "chainId": 42161,
-    "symbol": "uniBTC",
-    "name": "uniBTC",
-    "address": "0x6B2a01A5f79dEb4c2f3c0eDa7b01DF456FbD726a",
-    "logoURI": "BASE_URL/assets/unibtc.svg",
-    "decimals": 8,
-    "quote": "other"
-  },
-  {
-    "chainId": 42161,
-    "symbol": "PEAR",
-    "name": "Pear",
-    "address": "0x3212dc0F8c834e4DE893532d27CC9B6001684DB0",
-    "logoURI": "BASE_URL/assets/pear.svg",
-    "decimals": 18,
-    "quote": "other"
-  },
-  {
-    "chainId": 42161,
-    "symbol": "EIGEN",
-    "name": "Eigen",
-    "address": "0x606C3e5075e5555e79Aa15F1E9FACB776F96C248",
-    "logoURI": "BASE_URL/assets/eigen.svg",
-    "decimals": 18,
-    "quote": "other"
-  },
-  {
-    "chainId": 42161,
-    "symbol": "USDz",
-    "name": "Anzen USDz",
-    "address": "0x5018609AB477cC502e170A5aCcf5312B86a4b94f",
-    "logoURI": "BASE_URL/assets/usdz.svg",
-    "decimals": 18,
-    "quote": "derived_stable"
-  },
-  {
-    "chainId": 42161,
-    "symbol": "sUSDz",
-    "name": "Anzen Staked USDz",
-    "address": "0x1B2c29e3897b8F9170c98440A483e90e715C879d",
-    "logoURI": "BASE_URL/assets/susdz.svg",
-    "decimals": 18,
-    "quote": "derived_stable"
-  },
-  {
-    "chainId": 42161,
-    "symbol": "agETH",
-    "name": "agETH",
-    "address": "0xF1A88250532a4A66A2420a8cbB434Da82E1E2cA1",
-    "logoURI": "BASE_URL/assets/ageth.png",
-    "decimals": 18,
-    "quote": "derived_native"
-  },
-  {
-    "chainId": 42161,
-    "symbol": "wUSDL",
-    "name": "Wrapped Lift Dollar",
-    "address": "0x7751E2F4b8ae93EF6B79d86419d42FE3295A4559",
-    "logoURI": "BASE_URL/assets/wusdl.svg",
-    "decimals": 18,
-    "quote": "derived_stable"
-  },
-  {
-    "chainId": 42161,
-    "symbol": "GUBERTO",
-    "name": "GUBERTO",
-    "address": "0x4727a7D2022e99eE5c298513b730307F458f9B40",
-    "logoURI": "BASE_URL/assets/guberto.jpg",
-    "decimals": 18,
-    "quote": "other"
-  },
-  {
-    "chainId": 42161,
-    "symbol": "APE",
-    "name": "ApeCoin",
-    "address": "0x7f9FBf9bDd3F4105C478b996B648FE6e828a1e98",
-    "logoURI": "BASE_URL/assets/ape.svg",
-    "decimals": 18,
-    "quote": "other"
-  },
-  {
-    "chainId": 42161,
-    "symbol": "mGRAIL",
-    "name": "mGRAIL Token",
-    "address": "0x68e92A82e2Fb7b7539F51Ae2Fcfb98E775F463b9",
-    "logoURI": "BASE_URL/assets/mgrail.png",
-    "decimals": 18,
-    "quote": "other",
-    "intermediaryTokens": [
-      "0x3d9907F9a368ad0a51Be60f7Da3b97cf940982D8"
-    ]
-  },
-  {
-    "chainId": 42161,
-    "symbol": "GMI",
-    "name": "GMX Market Index",
-    "address": "0xAad4187a81689AF72d91966c8119756E425cD7CF",
-    "logoURI": "BASE_URL/assets/gmi.jpg",
-    "decimals": 18,
-    "quote": "other"
-  },
-  {
-    "chainId": 42161,
-    "symbol": "GLOOP",
-    "name": "Gloop Token",
-    "address": "0x4d48d503ed04d50418C9aBF163b1168FF834E47c",
-    "logoURI": "BASE_URL/assets/gloop.jpg",
-    "decimals": 18,
-    "quote": "other",
-    "intermediaryTokens": [
-      "0xAad4187a81689AF72d91966c8119756E425cD7CF"
-    ]
-  },
-  {
-    "chainId": 42161,
-    "symbol": "VITAI",
-    "name": "Vitalik Ai",
-    "address": "0x1B7AD346b6Ff2D196DaA8E78AEd86Baa6D7e3B02",
-    "logoURI": "BASE_URL/assets/vitai.jpg",
-    "decimals": 18,
-    "quote": "other"
-  },
-  {
-    "chainId": 42161,
-    "symbol": "OLP",
-    "name": "ostiumLP",
-    "address": "0x20D419a8e12C45f88fDA7c5760bb6923Cee27F98",
-    "logoURI": "BASE_URL/assets/ostium.svg",
-    "decimals": 6,
-    "quote": "other"
-  },
-  {
-    "chainId": 42161,
-    "symbol": "USDX",
-    "name": "USDX",
-    "address": "0xf3527ef8dE265eAa3716FB312c12847bFBA66Cef",
-    "logoURI": "BASE_URL/assets/usdx.svg",
-    "decimals": 18,
-    "quote": "stable"
-  },
-  {
-    "chainId": 42161,
-    "symbol": "sUSDX",
-    "name": "Staked USDX",
-    "address": "0x7788A3538C5fc7F9c7C8A74EAC4c898fC8d87d92",
-    "logoURI": "BASE_URL/assets/susdx.svg",
-    "decimals": 18,
-    "quote": "other",
-    "intermediaryTokens": [
-      "0xf3527ef8dE265eAa3716FB312c12847bFBA66Cef"
-    ]
-  },
-  {
-    "chainId": 42161,
-    "symbol": "wHYPE",
-    "name": "Wrapped HYPE",
-    "address": "0xaC75f0c46723432a2303f2a7c7769535A179Ed56",
-    "logoURI": "BASE_URL/assets/whype.svg",
-    "decimals": 6,
-    "quote": "other"
-  },
-  {
-    "chainId": 42161,
-    "symbol": "CARV",
-    "name": "CARV",
-    "address": "0xc08Cd26474722cE93F4D0c34D16201461c10AA8C",
-    "logoURI": "BASE_URL/assets/carv.svg",
-    "decimals": 18,
-    "quote": "other"
-  },
-  {
-    "chainId": 42161,
-    "symbol": "O3",
-    "name": "O3",
-    "address": "0xDd89a4D3362828e601df52208302A741F08E46c5",
-    "logoURI": "BASE_URL/assets/o3.png",
-    "decimals": 18,
-    "quote": "other"
-  },
-  {
-    "chainId": 42161,
-    "symbol": "EAI",
-    "name": "Eternal AI",
-    "address": "0xDB8C67e6CA293F43C75e106c70b97033cC2909E3",
-    "logoURI": "BASE_URL/assets/eai.png",
-    "decimals": 18,
-    "quote": "other"
-  },
-  {
-    "chainId": 42161,
-    "symbol": "OVER",
-    "name": "Overlord",
-    "address": "0xF6eB7A9799F6680C320e79D0FB35E842D54D38CE",
-    "logoURI": "BASE_URL/assets/overlord.png",
-    "decimals": 18,
-    "quote": "other",
-    "intermediaryTokens": [
-      "0x13ad3f1150db0e1e05fd32bDEeB7C110ee023de6"
-    ],
-    "buyTax": 100,
-    "sellTax": 100
-  },
-  {
-    "chainId": 42161,
-    "symbol": "GMB",
-    "name": "Gameboi",
-    "address": "0xA0C8D91B6dcE36F6deeADF716ab02bC539d9beBF",
-    "logoURI": "BASE_URL/assets/gameboi.png",
-    "decimals": 18,
-    "quote": "other",
-    "intermediaryTokens": [
-      "0x13ad3f1150db0e1e05fd32bDEeB7C110ee023de6"
-    ],
-    "buyTax": 100,
-    "sellTax": 100
-  },
-  {
-    "chainId": 42161,
-    "symbol": "DeFAI",
-    "name": "AISweatShop",
-    "address": "0x13ad3f1150db0e1e05fd32bDEeB7C110ee023de6",
-    "logoURI": "BASE_URL/assets/defai.png",
-    "decimals": 18,
-    "quote": "other",
-    "intermediaryTokens": [
-      "0xF6eB7A9799F6680C320e79D0FB35E842D54D38CE",
-      "0xA0C8D91B6dcE36F6deeADF716ab02bC539d9beBF"
-    ]
-  },
-  {
-    "chainId": 42161,
-    "symbol": "KUDAI",
-    "name": "Kudai",
-    "address": "0xc9bD1C1e65eBFb36cF4b3d9FC8E2b844248deEE8",
-    "logoURI": "BASE_URL/assets/kudai.png",
-    "decimals": 18,
-    "quote": "other"
-  },
-  {
-    "chainId": 42161,
-    "symbol": "Anon",
-    "name": "HeyAnon",
-    "address": "0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C",
-    "logoURI": "BASE_URL/assets/anon.png",
-    "decimals": 18,
-    "quote": "other"
-  },
-  {
-    "chainId": 42161,
-    "symbol": "RARI",
-    "name": "RARI",
-    "address": "0xCf78572A8fE97b2B9a4B9709f6a7D9a863c1b8E0",
-    "logoURI": "BASE_URL/assets/rari.svg",
-    "decimals": 18,
-    "quote": "other"
-  },
-  {
-    "chainId": 42161,
-    "symbol": "SWORLD",
-    "name": "Seedworld",
-    "address": "0x968bE3F7bfeF0F8eDc3c1aD90232EbB0DA0867aA",
-    "logoURI": "BASE_URL/assets/sworld.png",
-    "decimals": 18,
-    "quote": "other"
-  },
-  {
-    "chainId": 42161,
-    "symbol": "G7",
-    "name": "G7",
-    "address": "0xF18e4466F26B4cA55bbAb890b314a54976E45B17",
-    "logoURI": "BASE_URL/assets/g7.svg",
-    "decimals": 18,
-    "quote": "other"
-  },
-  {
-    "chainId": 42161,
-    "symbol": "CLUTCH",
-    "name": "Clutch",
-    "address": "0xF4AcDE4D938844751f34659C67056f7e69dBE85a",
-    "logoURI": "BASE_URL/assets/CLUTCH.png",
     "decimals": 18,
     "quote": "other"
   }
