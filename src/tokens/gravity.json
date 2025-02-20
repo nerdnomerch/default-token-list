@@ -59,23 +59,5 @@
     "logoURI": "BASE_URL/assets/dai.svg",
     "decimals": 18,
     "quote": "derived_stable"
-  },
-  {
-    "chainId": 1625,
-    "symbol": "atETH",
-    "name": "Latch staked ETH",
-    "address": "0xc314b8637B05A294Ae9D9C29300d5f667c748baD",
-    "logoURI": "BASE_URL/assets/ateth.svg",
-    "decimals": 18,
-    "quote": "other"
-  },
-  {
-    "chainId": 1625,
-    "symbol": "atUSD",
-    "name": "Latch staked USD",
-    "address": "0xc4af68Dd5b96f0A544c4417407773fEFDc97F58d",
-    "logoURI": "BASE_URL/assets/atusd.svg",
-    "decimals": 18,
-    "quote": "derived_stable"
   }
 ]
