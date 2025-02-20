@@ -4,6 +4,15 @@ This GitHub repo contains the default token list used in the Camelot interface.
 
 ## Adding a token
 
+You can request the addition of the token through an issue submission or a pull request.
+
+### Option #1: submit an issue
+
+To request the whitelisting of a token to Camelot,
+[file an issue](https://github.com/CamelotLabs/default-token-list/issues/new?assignees=&labels=token+request&template=token-request.md&title=Add+%7BTOKEN_SYMBOL%7D%3A+%7BTOKEN_NAME%7D).
+
+### Option #2: pull request
+
 To directly submit the integration of your token to Camelot's default token list, you can create your entry and submit a PR with it.
 
 **1. Fork this repo**
@@ -35,7 +44,6 @@ To directly submit the integration of your token to Camelot's default token list
 - priceChartPair (string): address, to force a specific asset to be paired with this token on the swap page chart
 - priceOf (string): address, use the price of a different asset to estimate the USD value of your token, only for illiquid assets
 - intermediaryTokens (array): array of addresses, add as a trusted intermediary tokens in Camelot's native router's quoted paths
-- buyTax and/or sellTax (number): 1 = 0.01%
 
 ### Disclaimer
 
